@@ -16,18 +16,27 @@ const Education = () => {
           <br />
           <em>Master of Technology Management</em>
           <br />
-          <em>April 2020 - Present</em>
+          <em>October 2022 - Present</em>
           <br />
           <em>Yamaguchi, Japan</em>
         </p>
         <p>
-          <strong>University of Lagos</strong>
+          <strong>Makerere University</strong>
           <br />
-          <em>Bachelor of Science in Computer Science</em>
+          <em>Bachelor of Information Technology</em>
           <br />
-          <em>August 2012 - July 2016</em>
+          <em>August 2012 - February 2016</em>
           <br />
-          <em>Lagos, Nigeria</em>
+          <em>Kampala, Uganda</em>
+        </p>
+        <p>
+          <strong>Islamic University in Uganda</strong>
+          <br />
+          <em>Bachelor of Arts in Economics</em>
+          <br />
+          <em>August 2012 - December 2015</em>
+          <br />
+          <em>Kampala, Uganda</em>
         </p>
       </div>
     </section>
