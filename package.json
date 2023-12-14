@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://Jotham566.github.io/projects",
+    "build-gh": "parcel build --public-url 'https://Jotham566.github.io/projects'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
