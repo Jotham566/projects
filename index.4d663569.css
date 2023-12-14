@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
-html, body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -87,6 +91,28 @@ li::marker {
   color: #4e567e;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+div#scroll-down-arrow {
+  animation: bounce 2s infinite;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 a {
   color: #000;
   text-decoration: none;
@@ -116,6 +142,18 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
